@@ -1,0 +1,13 @@
+/* LeftNavBar.css */
+.left-navbar {
+    position: fixed;
+    top: 60px;
+    left: 60px;
+    bottom: 0;
+    width: 200px; /* Adjust width as needed */
+    background: #001529;
+    z-index: 1;
+    transition: margin-left 0.3s;
+    overflow: hidden; /* Ensure the navbar itself does not scroll */
+  }
+  
